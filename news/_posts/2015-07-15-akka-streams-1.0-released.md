@@ -45,6 +45,7 @@ Since the RC4 release:
   - 1558 files changed, 125283 insertions(+), 40765 deletions(-),
   - ... and a total of 9 contributors!
 
+Statistics:
 
     commits   added removed
          26    2342     335 Johannes Rudolph
