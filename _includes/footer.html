@@ -46,7 +46,7 @@
       ];
 
       function sbtDependency(artifact) {
-          return '"' + artifact.groupId + '" %% "' + artifact.artifactId + '" % "' + artifact.version + "'\n";
+          return '"' + artifact.groupId + '" %% "' + artifact.artifactId + '" % "' + artifact.version + '"\n';
       }
       function gradleDependency(artifact) {
           return "compile '" + artifact.groupId + ":" + artifact.artifactId + "_" + artifact.scalaVersions[0] + ":" + artifact.version + "'\n";
